@@ -1,0 +1,400 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: rgb(33, 175, 144);
+  --ifm-color-primary-darker: rgb(31, 165, 136);
+  --ifm-color-primary-darkest: rgb(26, 136, 112);
+  --ifm-color-primary-light: rgb(70, 203, 174);
+  --ifm-color-primary-lighter: rgb(102, 212, 189);
+  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-code-font-size: 95%;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+.ktnnZL {
+  margin-bottom: 24px;
+  background: rgb(241, 242, 246);
+}
+
+.ktnnZL .flex {
+  height: 100px;
+}
+
+.flex > * {
+  color: rgb(47, 53, 66);
+  background: rgb(92, 241, 124);
+}
+
+.flex2 {
+  background: rgb(91, 215, 234);
+}
+
+.flex3 {
+  background: rgb(247, 220, 124);
+}
+
+.ktnnZL .flex > * {
+  color: rgb(47, 53, 66);
+  background: rgb(92, 241, 124);
+}
+
+.ktnnZL .flex2 {
+  background: rgb(91, 215, 234);
+}
+
+.ktnnZL .flex3 {
+  background: rgb(247, 220, 124);
+}
+
+.bYuEFX {
+  margin-bottom: 24px;
+  background: rgb(241, 242, 246);
+}
+
+.bYuEFX .flex {
+  height: 100px;
+  display: flex;
+}
+
+.dAoVUF {
+  margin-bottom: 24px;
+  background: rgb(241, 242, 246);
+}
+
+.dAoVUF .flex {
+  height: 100px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.gtqEJc {
+  margin-bottom: 24px;
+  background: rgb(241, 242, 246);
+}
+.gtqEJc .flex {
+  height: 100px;
+  display: flex;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+}
+
+.iJUtCi {
+  margin-bottom: 24px;
+  background: rgb(241, 242, 246);
+}
+.iJUtCi .flex {
+  height: 100px;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+.kRhgdt {
+  margin-bottom: 24px;
+  background: rgb(241, 242, 246);
+}
+
+.kRhgdt .flex {
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.gCyHYj {
+  margin-bottom: 24px;
+  background: rgb(241, 242, 246);
+}
+.gCyHYj .flex {
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.xfcLK {
+  margin-bottom: 24px;
+  background: rgb(241, 242, 246);
+}
+.xfcLK .flex {
+  height: 100px;
+  display: flex;
+  -webkit-box-align: stretch;
+  align-items: stretch;
+}
+.juQGEL {
+  margin-bottom: 24px;
+  background: rgb(241, 242, 246);
+}
+.juQGEL .flex {
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+}
+.iUIcZW {
+  margin-bottom: 24px;
+  background: rgb(241, 242, 246);
+}
+.iUIcZW .flex {
+  height: 100px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.dNkTMQ {
+  margin-bottom: 24px;
+  background: rgb(241, 242, 246);
+}
+.dNkTMQ .flex {
+  height: 100px;
+  display: flex;
+  align-items: flex-end;
+}
+.gddOaF {
+  margin-bottom: 24px;
+  background: rgb(241, 242, 246);
+}
+.gddOaF .flex {
+  height: 100px;
+  display: flex;
+  -webkit-box-align: baseline;
+  align-items: baseline;
+}
+.kBedZY  .flex2 , .gddOaF .flex2{
+  font-size: 24px;
+}
+.kBedZY {
+  margin-bottom: 24px;
+  background: rgb(241, 242, 246);
+}
+.kBedZY .flex {
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.fa-DFh {
+  margin-bottom: 24px;
+  background: rgb(241, 242, 246);
+}
+.fa-DFh .flex {
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+}
+.fa-DFh .flex .flex3 {
+  align-self: flex-end;
+}
+
+.kcSNOr {
+  margin-bottom: 24px;
+  background: rgb(241, 242, 246);
+}
+.kcSNOr .flex {
+  height: 100px;
+  display: flex;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+}
+.kcSNOr .flex .flex3 {
+  margin-left: auto;
+}
+.eqVYBc {
+  margin-bottom: 24px;
+  background: rgb(241, 242, 246);
+}
+.eqVYBc .flex {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.dwTILU {
+  margin-bottom: 24px;
+  background: rgb(241, 242, 246);
+}
+.dwTILU .flex {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.eXmwRn {
+  margin-bottom: 24px;
+  background: rgb(241, 242, 246);
+}
+.eXmwRn .flex {
+  height: 100px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.dNIFwn {
+  margin-bottom: 24px;
+  background: rgb(241, 242, 246);
+}
+.dNIFwn .flex {
+  height: 100px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.gIihQ {
+  margin-bottom: 24px;
+  background: rgb(241, 242, 246);
+}
+.gIihQ .flex {
+  height: 100px;
+  display: flex;
+}
+.gIihQ .flex .flex1, .gIihQ .flex .flex3 {
+  flex: 1 1 0%;
+}
+.gIihQ .flex .flex2 {
+  flex: 2 1 0%;
+}
+.iobZrf {
+  margin-bottom: 24px;
+  background: rgb(241, 242, 246);
+}
+.iobZrf .flex {
+  height: 100px;
+  display: flex;
+}
+.iobZrf .flex > * {
+  flex-basis: 200px;
+  width: 250px;
+}
+.iQNFUu .flex {
+  height: 100px;
+  display: flex;
+}
+.iQNFUu .flex > * {
+  flex-basis: 200px;
+  min-width: 250px;
+}
+.cdIkEc {
+  margin-bottom: 24px;
+  background: rgb(241, 242, 246);
+}
+.cdIkEc .flex {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.cdIkEc .flex > * {
+  flex-basis: 30px;
+}
+.iPNyFo {
+  margin-bottom: 24px;
+  background: rgb(241, 242, 246);
+}
+.iPNyFo .flex {
+  height: 100px;
+  display: flex;
+}
+.iPNyFo .flex .flex2 {
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+}
+.NopqO {
+  margin-bottom: 24px;
+  background: rgb(241, 242, 246);
+}
+.NopqO .flex {
+  height: 100px;
+  display: flex;
+}
+.NopqO .flex .flex1, .NopqO .flex .flex2, .NopqO .flex .flex3 {
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+}
+
+.jBHbhA {
+  margin-bottom: 24px;
+  background: rgb(241, 242, 246);
+}
+.jBHbhA .flex {
+  height: 100px;
+  display: flex;
+}
+.jBHbhA .flex .flex2 {
+  flex-basis: 600px;
+  flex-shrink: 2;
+}
+.jBHbhA .flex .flex1, .jBHbhA .flex .flex3 {
+  flex-basis: 600px;
+  flex-shrink: 1;
+}
+
+.bbMKRH {
+  margin-bottom: 24px;
+  background: rgb(241, 242, 246);
+}
+.bbMKRH .flex {
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.bbMKRH .flex > * {
+  flex-shrink: 0;
+  flex-basis: 300px;
+}
+.bbMKRH .flex4 {
+  background: rgb(207, 154, 255);
+}
+.bbMKRH .flex5 {
+  background: rgb(255, 164, 164);
+}
+.hxNvqq {
+  margin-bottom: 24px;
+  background: rgb(241, 242, 246);
+}
+.hxNvqq .flex {
+  height: 100px;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.hOMtfu {
+  margin-bottom: 24px;
+  background: rgb(241, 242, 246);
+}
+.hOMtfu .flex {
+  height: 100px;
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+.jauMYr {
+  margin-bottom: 24px;
+  background: rgb(241, 242, 246);
+}
+.jauMYr .flex {
+  height: 100px;
+  display: flex;
+}
+.jauMYr .flex > * {
+  flex: 1 1 0%;
+}
+.jauMYr .flex4 {
+  background: rgb(207, 154, 255);
+}
+.jauMYr .flex .flex4 {
+  display: flex;
+  flex: 1 1 0%;
+}
+.jauMYr .flex .flex4 > p {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
