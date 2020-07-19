@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'My Site',
+  title: '我的博客',
   tagline: 'The tagline of my site',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
@@ -8,19 +8,19 @@ module.exports = {
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: '',
+      // title: '',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
       links: [
         {
-          to: 'docs/',
+          to: 'docs/web01',
           activeBasePath: 'docs',
-          label: '笔记',
+          label: '博客',
           position: 'left',
         },
-        {to: 'blog', label: '博客', position: 'left'},
+        // {to: 'blog', label: '博客', position: 'left'},
       ],
     },
     footer: {
@@ -31,7 +31,7 @@ module.exports = {
           items: [
             {
               label: 'Style Guide',
-              to: 'docs/',
+              to: 'docs/web01',
             },
             {
               label: 'Second Doc',
@@ -79,18 +79,19 @@ module.exports = {
       {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: 'doc1',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/edit/master/website/',
+          path:'./docs',
+          // routeBasePath:'/'
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   // Please change this to your repo.
+        //   editUrl:
+        //     'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
